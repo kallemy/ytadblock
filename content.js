@@ -1,4 +1,4 @@
-//This portion is for hiding static ads  //Some of the timeouts may be shortened or removed //The ad is not always muted, this can happen if a function unmutes the video while another ad is loaded
+//This portion is for hiding static ads  
 //Listens to changes in title: page refresh or new page
 new MutationObserver(function (mutations) {
     hideAds(); 
@@ -16,7 +16,7 @@ function hideAds() {
     console.log("ytads: Blocked: " +adElements.length);
 }
 
-//This portion is for skipping video ads
+//This portion is for skipping video ads //Some of the timeouts may be shortened or removed //Some times the ad may not be fully muted, this can happen if a function unmutes the video while another ad is loaded
 //Click the ad skip button
 function clickSkipButton() {
     const skipButton = document.querySelector(".ytp-ad-skip-button.ytp-button");
