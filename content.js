@@ -1,4 +1,4 @@
-//This portion is for hiding static ads 
+//This portion is for hiding static ads  //Some of the timeouts may be shortened or removed //The ad is not always muted, this can happen if a function unmutes the video while another ad is loaded
 //Listens to changes in title: page refresh or new page
 new MutationObserver(function (mutations) {
     hideAds(); 
