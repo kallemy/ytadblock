@@ -50,7 +50,7 @@ function advance() {
     } else console.log("ytAds: video not found")
 }
 
-//Cooldown so that mutate observer won't trigger multiple times in a row
+//Cooldown so that mutate observer won't trigger the function multiple times in a row
 var coolDown = false
 //To be called when new elements appears in the DOM
 function handleNewElementAppearance(mutationsList, observer) {
