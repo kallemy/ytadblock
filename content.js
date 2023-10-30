@@ -42,9 +42,9 @@ function advance() {
             //check if ad still exist to not skip the actual video
             const adOverlay = document.querySelector(".ytp-ad-player-overlay");
             if (adOverlay){
-            video.currentTime = newTime;
-            video.muted = false;
-            console.log("ytAds: skipped, unmuted")
+                video.currentTime = newTime;
+                video.muted = false;
+                console.log("ytAds: skipped, unmuted")
             } else console.log("ytAds: Ad's no more")
         }, 1000);
     } else console.log("ytAds: video not found")
