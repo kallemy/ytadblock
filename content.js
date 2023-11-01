@@ -27,7 +27,7 @@ function clickSkipButton() {
             console.log("ytAds: click! unmuted")
             skipButton.click(); 
             video.muted = false;
-        }, 1000);
+        }, 500);
     }
 }
 
@@ -46,7 +46,7 @@ function advance() {
                 video.muted = false;
                 console.log("ytAds: skipped, unmuted")
             } else console.log("ytAds: Ad's no more")
-        }, 1000);
+        }, 500);
     } else console.log("ytAds: video not found")
 }
 
